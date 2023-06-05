@@ -15,6 +15,21 @@
 
   /* Common CSS */
 
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #394867;
+  }
+
+  p {
+    color: #8f95a5;
+    padding-top: 1.5rem;
+  }
+
+  section {
+    padding: 7% 2%;
+  }
+
   .btn {
     border: .120rem solid #191825;
     text-transform: uppercase;
@@ -23,8 +38,9 @@
     font-size: 1rem;
     color: #191825;
   }
-  . .btn:hover {
-    background-color: #006400 !important;
+
+  .btn:hover {
+    background-color: #006400;
   }
 
   /* Header CSS */
@@ -98,4 +114,79 @@
     text-transform: uppercase;
     border-radius: 50px;
     font-size: .85rem;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+/* About CSS */
+
+#about .about-img {
+  position: relative;
+}
+
+.about-text {
+  margin-left: 4.5rem;
+  padding-top: 1rem;
+}
+
+.about-text ul li {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.about-text ul li a {
+  color: #8f95a5;
+}
+.check {
+  color: #C73A2F;
+}
+
+img.book_page.img-fluid {
+  position: absolute;
+  width: 79%;
+  height: 83%;
+  left: 10%;
+  top: 7%;
+}
+.about-btn {
+  background-color: #C73A2F;
+  color: #F4F7FC;
+}
+.about-content {
+  margin-top: 55px;
+}
+.content {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+}
+.content .about-icon {
+  font-size: 50px;
+  color: #C73A2F;
+  font-weight: 100;
+  
+}
+.rocket {
+  color: #698F64 !important;
+}
+.envelop {
+  color: #E8C82C !important;
+}
+.content p {
+  line-height: 28px;
+  color: #A7AAB8;
+}
+.about-announcement {
+  background-color: #F4F7FC;
+  padding: 7% 0;
+  margin-top: 7%;
+}
+.about-announcement p {
+  font-size: 2.3rem;
+  color: #444651;
+}
+.about-announcement .philosopher {
+  color: #C73A2F;
+  font-size: 1rem;
 }
