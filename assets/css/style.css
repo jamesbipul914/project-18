@@ -1,0 +1,101 @@
+/* Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 auto;
+    max-width: 1400px;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  /* Common CSS */
+
+  .btn {
+    border: .120rem solid #191825;
+    text-transform: uppercase;
+    border-radius: 3.125rem;
+    padding: .5 1.5rem;
+    font-size: 1rem;
+    color: #191825;
+  }
+  . .btn:hover {
+    background-color: #006400 !important;
+  }
+
+  /* Header CSS */
+
+  .header {
+    background-color: #F4F7FC;
+  }
+
+  .logo {
+    color: #191825;
+    font-weight: bolder;
+  }
+
+  .logo span {
+    color: #D21312;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #374259;
+    margin-right: .5rem;
+    margin-top: .5rem;
+  }
+
+  .active {
+    color: #D21312 !important;
+  }
+
+  .dropdown-item {
+    text-transform: uppercase;
+  }
+
+  .nav-link:hover {
+    color: #D21312 !important;
+  }
+
+  .button {
+    margin-top: 1rem;
+  }
+
+  /* Banner CSS */
+  .banner {
+    margin-top: 4rem;
+  }
+
+  .banner span {
+    color: #D21312;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+    color: #394867;
+    font-weight: bolder;
+  }
+
+  .banner p {
+    color: #8f95a5;
+  }
+
+  .banner-btn {
+    background-color: #375877;
+    color: #F4F7FC;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: .85rem;
+}
