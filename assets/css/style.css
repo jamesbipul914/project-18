@@ -27,7 +27,7 @@
   }
 
   section {
-    padding: 7% 2%;
+    padding: 3% 2%;
   }
 
   .btn {
@@ -41,6 +41,11 @@
 
   .btn:hover {
     background-color: #006400;
+    color: #ffffff;
+  }
+
+  hr {
+    color: #A7AAB8;
   }
 
   /* Header CSS */
@@ -162,7 +167,7 @@ img.book_page.img-fluid {
   border-radius: 15px;
 }
 .content .about-icon {
-  font-size: 50px;
+  font-size: 2rem;
   color: #C73A2F;
   font-weight: 100;
   
@@ -177,16 +182,259 @@ img.book_page.img-fluid {
   line-height: 28px;
   color: #A7AAB8;
 }
-.about-announcement {
+.acknowledge {
   background-color: #F4F7FC;
   padding: 7% 0;
   margin-top: 7%;
 }
-.about-announcement p {
-  font-size: 2.3rem;
+.acknowledge p {
+  font-size: 2rem;
   color: #444651;
 }
-.about-announcement .philosopher {
-  color: #C73A2F;
+.acknowledge span {
+  color: #D21312;
   font-size: 1rem;
 }
+
+/* Chapter CSS */
+
+.chapter h2 {
+  font-weight: bolder;
+  color: #191825;
+}
+
+.chapter-item {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px;
+  margin-bottom: 25px;
+  background-color: #ffffff;
+}
+
+.chapter-item h4 {
+  text-transform: uppercase;
+  color: #D21312;
+}
+
+/* Review CSS */
+
+.review-item {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff;
+}
+
+.review-item img {
+  border-radius: 100%;
+  width: 25%;
+}
+
+.fa-star {
+  color: #C73A2F;
+}
+
+.review-item p {
+  color: #A7AAB8; 
+  line-height: 30px;
+  padding-top: 0;
+}
+
+/* Analysis CSS */
+
+#analysis h2 {
+  font-size: 1.5rem;
+}
+
+.analysis-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.analysis-items .img {
+  width: 6%;
+  padding-bottom: 5rem;
+}
+.analysis-items .img img {
+  width: 100%;
+}
+
+.analysis-text {
+  line-height: 30px;
+}
+
+.analysis-btn {
+  background-color: #C73A2F;
+  color: #F4F7FC;
+  border-radius: 50px;
+  padding: 10px 25px;
+}
+
+/* Writer CSS */
+
+#writer {
+  position: relative;
+}
+.writer-img {
+  position: absolute;
+  z-index: 9;
+  left: 10%;
+  top: 12%;
+}
+.writer-img .img {
+  width: 90%;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.writer-img .img img {
+  border-radius: 5px;
+}
+.writer-content {
+  height: 778px;
+  background-color: #F4F7FC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px 0 0 20px;
+  padding: 0 25%;
+}
+.writer-text {
+  position: relative;
+}
+.writer-content h3{
+  font-weight: bold;
+}
+.writer-content p{
+  color: #ADB3BE;
+}
+.writer-content .img {
+  width: 80%;
+}
+
+/* Award CSS */
+.award-item img {
+  width: 100%;
+}
+.award-text h2 {
+  line-height: 46px;
+  color: #191825;
+}
+.award-item {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  padding: 25px 0;
+}
+.award-item h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+/* Author CSS */
+
+.author-text h2 {
+  font-size: 3rem;
+  color: #191825;
+}
+
+/* Article CSS */
+article {
+  padding: 5% 0;
+}
+
+.article h2 {
+  color: #191825;
+}
+
+.article-img span {
+  color: #000;
+  font-weight: bold;
+}
+.article-img h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #191825;
+}
+
+/* Contact CSS */
+
+/* Content CSS */
+#contact {
+  background-color: #f4f7fC;
+}
+
+.contact-us {
+  margin: 2% 0;
+}
+
+.contact-us h2 {
+  color: #191825;
+}
+
+.contact {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  padding: 60px;
+  background-color: #fff;
+}
+.contact  h3 {
+  font-size: 1rem;    
+  font-weight: bold;    
+  margin-top: 5px;
+}
+.contact .icon {
+  font-size: 38px;
+  color: #C73A2F;
+}
+
+/* Footer CSS */
+
+footer {
+  padding: 7% 0;
+  background-color: #FEFEFE;
+}
+.footer-widget h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #273863;  
+  margin-bottom: 20px;  
+}
+.footer-widget p {
+  color: #B1B3BD;
+  font-size: 1rem;
+}
+.footer-widget input {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  padding: 10px 5px;
+  border: 1px solid #fff;
+  color: #B1B3BD;
+}
+.footer-widget input::placeholder {
+  color: #B1B3BD;
+}
+.footer-widget input:focus {
+  outline: none;
+}
+.footer-btn {
+  background-color: #395676;
+  color: #F4F7FC;
+  margin-top: 20px;
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+
+.main-footer p  {
+  color: #375877;
+}
+.main-footer {
+  margin-top: 40px;
+  border-top: 1px solid #F4F7FC;
+}
+.main-footer span {
+  color: #C73A2F;
+}
+.main-footer .img img {
+  width: 70%;
+}
+
